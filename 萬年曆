@@ -1,8 +1,8 @@
 #include <iostream>
 
 int week;
-void A();
-void B();
+int Ac();
+int Bc();
 int main()
 {
 	int year,tot,temp,temp2,temp3,temp4;
@@ -32,30 +32,30 @@ int main()
 		{
 			if(year%100==0)
 			{
-				A();
+				Ac();
 			}
 			else
 			{
-				B();
+				Bc();
 			}
 		}
 		else
 		{
-			A();
+			Ac();
 		}
 	}
 	else
 	{
-		A();
+		Ac();
 	}
 	return 0;
 }
-A()
+Ac()
 {
 	int mon=1,day=1,i,j,k,l=0;
 	while(mon<=12)
 	{
-		switch
+		switch(mon)
 		{
 			case 1:
 				for(i=0;i<week%7;i++)
@@ -67,7 +67,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -88,6 +88,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 2:
 				day=1;
@@ -100,7 +101,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;;
 				while(day<=28)
 				{
 					if((day-k)%7==0)
@@ -121,6 +122,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 3:
 				day=1;
@@ -133,7 +135,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -154,6 +156,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 4:
 				day=1;
@@ -166,7 +169,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -187,6 +190,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 5:
 				day=1;
@@ -199,7 +203,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -220,6 +224,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 6:
 				day=1;
@@ -232,7 +237,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -253,6 +258,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 7:
 				day=1;
@@ -265,7 +271,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -286,6 +292,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 8:
 				day=1;
@@ -298,7 +305,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -319,6 +326,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 9:
 				day=1;
@@ -331,7 +339,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -352,6 +360,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 10:
 				day=1;
@@ -364,7 +373,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -385,6 +394,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 11:
 				day=1;
@@ -397,7 +407,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -418,6 +428,7 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 12:
 				day=1;
@@ -430,7 +441,7 @@ A()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -451,19 +462,20 @@ A()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			default:
 				break;
 		}
 	}
-	return;
+	return 0;
 }
-B()
+Bc()
 {
-	int mon=1,day=1,i,j,k,l=0
+	int mon=1,day=1,i,j,k,l=0;
 	while(mon<=12)
 	{
-		switch
+		switch(mon)
 		{
 			case 1:
 				for(i=0;i<week%7;i++)
@@ -475,7 +487,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -496,6 +508,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 2:
 				day=1;
@@ -508,7 +521,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=29)
 				{
 					if((day-k)%7==0)
@@ -529,6 +542,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 3:
 				day=1;
@@ -541,7 +555,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -562,6 +576,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 4:
 				day=1;
@@ -574,7 +589,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -595,6 +610,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 5:
 				day=1;
@@ -607,7 +623,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -628,6 +644,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 6:
 				day=1;
@@ -640,7 +657,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -661,6 +678,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 7:
 				day=1;
@@ -673,7 +691,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -694,6 +712,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 8:
 				day=1;
@@ -706,7 +725,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -727,6 +746,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 9:
 				day=1;
@@ -739,7 +759,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -760,6 +780,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 10:
 				day=1;
@@ -772,7 +793,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -793,6 +814,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 11:
 				day=1;
@@ -805,7 +827,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -826,6 +848,7 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			case 12:
 				day=1;
@@ -838,7 +861,7 @@ B()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -859,10 +882,11 @@ B()
 						l=0;
 					}
 				}
+				mon++;
 				break;
 			default:
 				break;
 		}
 	}
-	return;
+	return 0;
 }

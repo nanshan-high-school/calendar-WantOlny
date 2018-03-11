@@ -53,6 +53,7 @@ int main()
 Ac()
 {
 	int mon=1,day=1,i,j,k,l=0;
+	printf("日 一 二 三 四 五 六");
 	while(mon<=12)
 	{
 		switch(mon)
@@ -64,7 +65,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -72,14 +73,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -98,7 +99,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -106,14 +107,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -132,7 +133,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -140,14 +141,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -166,7 +167,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -174,14 +175,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -200,7 +201,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -208,14 +209,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -234,7 +235,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -242,14 +243,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -268,7 +269,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -276,14 +277,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -302,7 +303,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -310,14 +311,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -336,7 +337,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -344,14 +345,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -370,7 +371,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -378,14 +379,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -404,7 +405,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -412,14 +413,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -438,7 +439,7 @@ Ac()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -446,14 +447,14 @@ Ac()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -473,6 +474,7 @@ Ac()
 Bc()
 {
 	int mon=1,day=1,i,j,k,l=0;
+	printf("日 一 二 三 四 五 六");
 	while(mon<=12)
 	{
 		switch(mon)
@@ -484,7 +486,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -492,14 +494,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -518,7 +520,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -526,14 +528,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -552,7 +554,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -560,14 +562,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -586,7 +588,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -594,14 +596,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -620,7 +622,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -628,14 +630,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -654,7 +656,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -662,14 +664,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -688,7 +690,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -696,14 +698,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -722,7 +724,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -730,14 +732,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -756,7 +758,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -764,14 +766,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -790,7 +792,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -798,14 +800,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -824,7 +826,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -832,14 +834,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}
@@ -858,7 +860,7 @@ Bc()
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d",day);
+					printf("%d ",day);
 					day++;
 				}
 				k=day-1;
@@ -866,14 +868,14 @@ Bc()
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d",day);
+						printf("%d ",day);
 						day++;
 						l++;
 					}

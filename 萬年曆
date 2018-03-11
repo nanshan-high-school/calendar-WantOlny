@@ -67,7 +67,7 @@ Ac()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1;;
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -101,7 +101,7 @@ Ac()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1;;
+				k=day-1;
 				while(day<=28)
 				{
 					if((day-k)%7==0)
@@ -135,7 +135,7 @@ Ac()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1;;
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
@@ -169,7 +169,7 @@ Ac()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1;;
+				k=day-1;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
@@ -203,7 +203,7 @@ Ac()
 					printf("%d",day);
 					day++;
 				}
-				k=day-1;;
+				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)

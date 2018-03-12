@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> 
 
 int week;
 int Ac();
@@ -7,7 +7,10 @@ int main()
 {
 	int year,tot,temp,temp2,temp3,temp4;
 	printf("input year:\n");
-	scanf("%d",year);
+	scanf("%d",&year);
+	
+	
+	
 	if(year>1900)
 	{
 		temp=year-1900;
@@ -48,12 +51,13 @@ int main()
 	{
 		Ac();
 	}
+	system("PAUSE");
 	return 0;
 }
 Ac()
 {
 	int mon=1,day=1,i,j,k,l=0;
-	printf("日 一 二 三 四 五 六");
+	printf("日一二三四五六\n");
 	while(mon<=12)
 	{
 		switch(mon)
@@ -61,408 +65,443 @@ Ac()
 			case 1:
 				for(i=0;i<week%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 2:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=28)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 3:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 4:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 5:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 6:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 7:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 8:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 9:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 10:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 11:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 12:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			default:
@@ -474,7 +513,7 @@ Ac()
 Bc()
 {
 	int mon=1,day=1,i,j,k,l=0;
-	printf("日 一 二 三 四 五 六");
+	printf("日一二三四五六\n");
 	while(mon<=12)
 	{
 		switch(mon)
@@ -482,408 +521,443 @@ Bc()
 			case 1:
 				for(i=0;i<week%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 2:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=29)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 3:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 4:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 5:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 6:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 7:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 8:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 9:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 10:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 11:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=30)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			case 12:
 				day=1;
 				for(i=0;i<l%7;i++)
 				{
-				printf(" ");
+				printf(" X");
 				}
 				for(j=0;j<7-i;j++)
 				{
-					printf("%d ",day);
+					printf("%2d",day);
 					day++;
 				}
+				printf("\n");
 				k=day-1;
+				l=0;
 				while(day<=31)
 				{
 					if((day-k)%7==0)
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						printf("\n");
 						day++;
 						l++;
 					}
 					else
 					{
-						printf("%d ",day);
+						printf("%2d",day);
 						day++;
 						l++;
 					}
-					if(l>=8)
+					if(l>=7)
 					{
 						l=0;
 					}
 				}
+				printf("\n");
 				mon++;
 				break;
 			default:
